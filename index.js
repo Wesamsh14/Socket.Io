@@ -2,8 +2,8 @@ var express = require('express');
 const socket = require('socket.io')
 const app = express(); 
 
-const server = app.listen(4000, () => 
-console.log('server now is working on port 4000'));
+const server = app.listen(2000, () => 
+console.log('server now is working on port 2000'));
 
 
 app.use(express.static('public'));
