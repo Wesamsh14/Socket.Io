@@ -1,5 +1,5 @@
 // make connection
-const socket = io.connect('http://localhost:2000')
+const socket = io.connect('https://socket-first.onrender.com')
 // const sockett = io('/my-name');
 
 

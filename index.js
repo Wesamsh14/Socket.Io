@@ -1,9 +1,11 @@
 var express = require('express');
 const socket = require('socket.io')
 const app = express(); 
+const PORT = process.env.PORT || 7000;
 
-const server = app.listen(2000, () => 
-console.log('server now is working on port 2000'));
+
+const server = app.listen(PORT, () => 
+console.log(`server now is working on port ${PORT}`));
 
 
 app.use(express.static('public'));
